@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="239c4ab3-35df-4fe3-89c1-b731ee95b5f3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4.py" beforeDir="false" afterPath="$PROJECT_DIR$/4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tee.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tee.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valv.py" beforeDir="false" afterPath="$PROJECT_DIR$/Valv.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/check_inventory_description_matcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/check_inventory_description_matcher.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/check_inventory_description_matcher_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/check_inventory_description_matcher_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/check_inventory_description_matcher_final.py" beforeDir="false" afterPath="$PROJECT_DIR$/check_inventory_description_matcher_final.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elbo.py" beforeDir="false" afterPath="$PROJECT_DIR$/elbo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gasket.py" beforeDir="false" afterPath="$PROJECT_DIR$/gasket.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory_description_matcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/inventory_description_matcher.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,7 +218,7 @@
       <workItem from="1729577132855" duration="24293000" />
       <workItem from="1729655363977" duration="29517000" />
       <workItem from="1729742129629" duration="29903000" />
-      <workItem from="1729915882612" duration="14402000" />
+      <workItem from="1729915882612" duration="18022000" />
     </task>
     <servers />
   </component>

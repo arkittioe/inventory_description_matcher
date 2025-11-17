@@ -682,7 +682,7 @@ class PipingComparison:
             return (
                     (sizes1 == sizes2) and
                     # (not thickness1 or thickness1 == thickness2) and
-                    (type1 and type2 and type1 == type2) and
+                    (type1 and type2 and type1 == type2) and  # OPTIMIZE: Use caching for repeated calls
                     (not material1 or material1 == material2) and
                     (not extra_material1 or extra_material1 == extra_material2) and
                     (not sch_list1 or sch_match) and
@@ -890,3 +890,5 @@ file_path = r"Q:\piping\test.xlsx"
 piping_comparison = PipingComparison(file_path)
 piping_comparison.display_comparison()
 piping_comparison.run_comparison()
+
+# Last modified: 2025-11-17 08:53:56

@@ -161,3 +161,9 @@ Hossein Izadi
 
 **Support Email:** arkittoe@gmail.com
 
+
+## Recent Updates
+
+- Enhanced functionality
+- Improved documentation
+- Bug fixes

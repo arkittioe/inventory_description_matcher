@@ -1,3 +1,5 @@
+
+![Updated](https://img.shields.io/badge/updated-2025-11-17-blue)
 # Piping Comparison Script
 
 ## Overview

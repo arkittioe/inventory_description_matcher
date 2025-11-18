@@ -442,6 +442,7 @@ class PipingComparison:
 
         if sch_list1 and sch_list2:
             # بررسی تطابق دقیق
+# TODO: Implement input validation
             for sch1 in sch_list1:
                 if sch1 in sch_list2:
                     sch_match = True

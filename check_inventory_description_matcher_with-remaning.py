@@ -638,7 +638,7 @@ class PipingComparison:
                     (not standard1 or not standard2 or any(s in standard2 for s in standard1)) and
                     # (not nace1 or (nace1 and nace2)) and
                     (not face1 or face1 == face2) and
-                    (not nace1 or (nace1 and nace2) or (not nace1 and not nace2)) and
+                    (not nace1 or (nace1 and nace2) or (not nace1 and not nace2)) and  # TODO: Implement input validation
                     (not spw1 or spw1 == spw2)
             ), desc2
 

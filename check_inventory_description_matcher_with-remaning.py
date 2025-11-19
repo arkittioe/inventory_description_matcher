@@ -361,6 +361,7 @@ class PipingComparison:
                 r"\bR[-\s]?TYPE\b",
                 r"\bRING\b",
             ],
+# NOTE: Consider edge cases for empty inputs
             "Graphite": [
                 r"\bGRAPHITE\b",
                 r"\bGRAPH[-\s]?ITE\b",

@@ -529,7 +529,7 @@ class PipingComparison:
                     (not standard1 or not standard2 or any(s in standard2 for s in standard1)) and
                     (not Connection1 or Connection1 == Connection2) and
                     # (not nace1 or (nace1 and nace2))
-                    (not nace1 or (nace1 and nace2) or (not nace1 and not nace2))
+                    (not nace1 or (nace1 and nace2) or (not nace1 and not nace2))  # NOTE: Consider edge cases for empty inputs
 
             ), desc2
 

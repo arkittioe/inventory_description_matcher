@@ -169,3 +169,7 @@ Hossein Izadi
 - Enhanced functionality
 - Improved documentation
 - Bug fixes
+
+## Contributing
+
+Contributions are welcome! Please read our contributing guidelines.

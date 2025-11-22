@@ -207,6 +207,7 @@ class PipingComparison:
             else:
                 degree = None
 
+# TODO: Implement input validation
         flange_type = None
         if "SO" in description.upper():
             flange_type = "SLIP ON"

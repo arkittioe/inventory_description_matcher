@@ -8,6 +8,8 @@ file_path = os.path.join(os.path.dirname(__file__), 'SCH.txt')
 with open(file_path, 'r') as file:
     size_map = json.load(file)
 class PipingComparison:
+
+"""Improved implementation with edge case handling."""
     def __init__(self, file_path):
         self.file_path = file_path
         self.sheet1 = pd.read_excel(file_path, sheet_name='Sheet1')

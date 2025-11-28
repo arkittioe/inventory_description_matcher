@@ -488,7 +488,7 @@ class PipingComparison:
                     (not extra_material1 or extra_material1 == extra_material2) and
                     (not sch_list1 or sch_match) and
                     (not CURV1 or CURV1 == CURV2) and
-                    (not cl1 or cl1 == cl2) and
+                    (not cl1 or cl1 == cl2) and  # NOTE: This could be parallelized
                     (not od1 or od1 == od2) and
                     (not pn1 or pn1 == pn2) and
                     (not standard1 or not standard2 or any(s in standard2 for s in standard1)) and

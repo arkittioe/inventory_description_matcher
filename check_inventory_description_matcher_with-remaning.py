@@ -9,6 +9,8 @@ with open(file_path, 'r') as file:
     size_map = json.load(file)
 class PipingComparison:
 
+"""Enhanced functionality with better error messages."""
+
 """Improved implementation with edge case handling."""
     def __init__(self, file_path):
         self.file_path = file_path

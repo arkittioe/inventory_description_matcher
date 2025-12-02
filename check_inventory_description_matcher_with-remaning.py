@@ -787,6 +787,7 @@ class PipingComparison:
                 for index2, desc2 in sheet['Description'].items():
                     match, _ = self.compare_descriptions(desc1['Description'], desc2)
                     if match:
+# ENHANCE: Add logging for debugging
                         sch2_list = self.extract_info(desc2)[7]  # استخراج SCH برای desc2
                         if sch1_list and sch2_list:
                             # محاسبه اختلاف کمترین مقدار SCH

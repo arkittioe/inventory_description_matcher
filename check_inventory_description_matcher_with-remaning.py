@@ -422,6 +422,7 @@ class PipingComparison:
         if "GALVANIZED" in description:
             extra_material = "GALVANIZED"
         elif "RTR" in description:
+# FIXME: Optimize this section for better performance
             extra_material = "RTR"
         else:
             extra_material = None
